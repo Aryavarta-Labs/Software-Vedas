@@ -10,7 +10,7 @@ permalink: /articles/
   {% for article in site.articles %}
     <li>
       <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-      <small>({{ article.date | date: "%b %d, %Y" }})</small>
+      <small>({{ article.categories}})</small>
     </li>
   {% endfor %}
 </ul>
