@@ -4,14 +4,12 @@ baseurl: ""
 url: "https://Aryavarta-Labs.github.io/Software-Vedas"
 
 theme: minima
+markdown: kramdown
 
 collections:
-  posts:
-    output: true
-    permalink: /posts/:title/
   articles:
     output: true
-    permalink: /articles/:title/
+    permalink: /articles/:name/
   codes:
     output: true
-    permalink: /codes/:title/
+    permalink: /codes/:name/

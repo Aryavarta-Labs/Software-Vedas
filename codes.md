@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Code Solutions"
+permalink: /codes/
 ---
 
 # 💻 Algorithms & DSA Solutions
@@ -8,7 +9,7 @@ title: "Code Solutions"
 <ul>
   {% for code in site.codes %}
     <li>
-      <a href="{{ code.url }}">{{ code.title }}</a>  
+      <a href="{{ code.url }}">{{ code.title }}</a>
       <small>({{ code.date | date: "%b %d, %Y" }})</small>
     </li>
   {% endfor %}
