@@ -6,11 +6,9 @@ permalink: /articles/
 
 # 📐 System Design & Architecture Articles
 
-<ul>
-  {% for article in site.articles %}
-    <li>
-      <a href="{{ article.url | relative_url }}">{{ article.title }}</a>
-      <small>({{ article.categories}})</small>
-    </li>
-  {% endfor %}
-</ul>
+| Title | Categories | Date |
+|-------|------------|------|
+{% for article in site.articles %}
+| [{{ article.title }}]({{ article.url | relative_url }}) | {{ article.categories }} | {{ article.date }} |
+{% endfor %}
+
