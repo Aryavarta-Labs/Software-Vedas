@@ -9,17 +9,25 @@ baseurl: "/Software-Vedas"   # keep the leading slash, no trailing slash
 theme: minima
 markdown: kramdown
 
+# Plugins
 plugins:
   - jekyll-feed
 
-# Collections (posts is built-in; define the others)
+# ✅ Navbar pages (in order)
+header_pages:
+  - articles.md
+  - codes.md
+  - posts.md
+  - products.md
+
+# ✅ Collections
 collections:
-  products:
-    output: true
-    permalink: /products/:name/
   posts:
     output: true
     permalink: /posts/:name/
+  products:
+    output: true
+    permalink: /products/:name/
   articles:
     output: true
     permalink: /articles/:name/
