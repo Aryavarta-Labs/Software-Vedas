@@ -1,4 +1,17 @@
-title: "Gita of System Design"
-description: "The colletion of system design articles for creating a good software."
+title: "Software Vedas"
+description: "Insights on Product Development, Systems Design, and DSA"
+baseurl: "" 
+url: "https://Aryavarta-Labs.github.io/Software-Vedas"
+
 theme: minima
-author: "Aryavarta Labs | Akash"
+
+collections:
+  posts:
+    output: true
+    permalink: /posts/:title/
+  articles:
+    output: true
+    permalink: /articles/:title/
+  codes:
+    output: true
+    permalink: /codes/:title/
