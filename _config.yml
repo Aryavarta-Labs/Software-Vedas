@@ -16,3 +16,6 @@ collections:
   codes:
     output: true
     permalink: /codes/:name/
+  products:
+    output: true
+    permalink: /products/:name/
