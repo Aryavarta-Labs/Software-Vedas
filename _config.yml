@@ -8,6 +8,9 @@ baseurl: "/Software-Vedas"   # keep the leading slash, no trailing slash
 theme: minima
 markdown: kramdown
 
+plugins:
+  - jekyll-feed
+
 # Collections (posts is built-in; define the others)
 collections:
   articles:

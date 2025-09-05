@@ -8,6 +8,7 @@ title: "Software Vedas"
 .tab-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   margin: 1rem 0;
 }
 .tab {
@@ -15,7 +16,7 @@ title: "Software Vedas"
   cursor: pointer;
   border: 1px solid #ddd;
   border-radius: 8px 8px 0 0;
-  margin: 0 0.2rem;
+  margin: 0.2rem;
   background: #f9f9f9;
   font-weight: bold;
   transition: all 0.3s ease;
@@ -65,25 +66,19 @@ title: "Software Vedas"
   border-radius: 10px;
   background: #f8faff;
 }
-.subscribe-box input {
-  padding: 0.6rem;
-  width: 60%;
-  max-width: 280px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  margin-right: 0.5rem;
-}
-.subscribe-box button {
+.subscribe-box a {
+  display: inline-block;
+  margin-top: 0.8rem;
   padding: 0.6rem 1.2rem;
-  border: none;
-  background: #0366d6;
+  background: #ff6600;
   color: white;
   font-weight: bold;
+  text-decoration: none;
   border-radius: 6px;
-  cursor: pointer;
+  transition: background 0.3s ease;
 }
-.subscribe-box button:hover {
-  background: #024ea2;
+.subscribe-box a:hover {
+  background: #cc5200;
 }
 </style>
 
@@ -97,6 +92,7 @@ title: "Software Vedas"
   <div class="tab active" onclick="showTab('posts')">📝 Posts</div>
   <div class="tab" onclick="showTab('articles')">📐 Articles</div>
   <div class="tab" onclick="showTab('codes')">💻 Codes</div>
+  <div class="tab" onclick="showTab('products')">🛠 Products</div>
 </div>
 
 <!-- 🔹 Tab Contents -->
@@ -139,14 +135,24 @@ title: "Software Vedas"
   <p><a href="{{ '/codes/' | relative_url }}">See all codes →</a></p>
 </div>
 
+<div id="products" class="tab-content">
+  <h2>Latest Product Insights</h2>
+  <ul>
+    {% for product in site.products limit:5 %}
+      <li class="post-item">
+        <a href="{{ product.url | relative_url }}">{{ product.title }}</a>
+        <small>({{ product.date | date: "%b %d, %Y" }})</small>
+      </li>
+    {% endfor %}
+  </ul>
+  <p><a href="{{ '/products/' | relative_url }}">See all products →</a></p>
+</div>
+
 <!-- 🔹 Subscribe Box -->
 <div class="subscribe-box">
-  <h2>📩 Subscribe for Updates</h2>
-  <p>Get the latest articles, posts, and code solutions directly to your inbox.</p>
-  <form action="https://formspree.io/f/your-form-id" method="POST">
-    <input type="email" name="email" placeholder="Enter your email" required>
-    <button type="submit">Subscribe</button>
-  </form>
+  <h2>📡 Subscribe</h2>
+  <p>Follow the latest articles, posts, codes, and products via RSS.</p>
+  <a href="{{ '/feed.xml' | relative_url }}">📩 Subscribe via RSS</a>
 </div>
 
 <script>
