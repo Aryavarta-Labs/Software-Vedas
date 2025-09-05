@@ -1,11 +1,14 @@
 title: "Software Vedas"
 description: "Insights on Product Development, Systems Design, and DSA"
-baseurl: "" 
-url: "https://Aryavarta-Labs.github.io/Software-Vedas"
+
+# ✅ Project Pages settings
+url: "https://Aryavarta-Labs.github.io"
+baseurl: "/Software-Vedas"   # keep the leading slash, no trailing slash
 
 theme: minima
 markdown: kramdown
 
+# Collections (posts is built-in; define the others)
 collections:
   articles:
     output: true
