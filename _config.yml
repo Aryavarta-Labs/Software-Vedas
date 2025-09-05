@@ -13,12 +13,15 @@ plugins:
 
 # Collections (posts is built-in; define the others)
 collections:
+  products:
+    output: true
+    permalink: /products/:name/
+  posts:
+    output: true
+    permalink: /posts/:name/
   articles:
     output: true
     permalink: /articles/:name/
   codes:
     output: true
     permalink: /codes/:name/
-  products:
-    output: true
-    permalink: /products/:name/
