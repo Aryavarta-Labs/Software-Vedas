@@ -2,6 +2,6 @@
 
 Welcome to **Software Vedas** 👋
 
-- [📝 Product Posts](/posts/)
-- [📐 System Articles](/articles/)
-- [💻 Code Solutions](/codes/)
+- [📝 Product Posts](/_posts/)
+- [📐 System Articles](/_articles/)
+- [💻 Code Solutions](/_codes/)
