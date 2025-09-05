@@ -1,0 +1,16 @@
+body {
+  max-width: 800px;  /* A4 width ~ 794px at 96dpi */
+  margin: auto;      /* centers content */
+  padding: 2rem;
+  line-height: 1.6;
+  font-family: "Segoe UI", Arial, sans-serif;
+  background: #fafafa;
+}
+
+@media print {
+  body {
+    width: 210mm;   /* A4 width */
+    height: 297mm;  /* A4 height */
+    margin: auto;
+  }
+}
