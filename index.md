@@ -43,6 +43,7 @@ title: "Home"
 ## 🆕 Latest Updates
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
 
+  <!-- Posts -->
   <div style="background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
     <h3>📝 Recent Posts</h3>
     <ul>
@@ -50,8 +51,10 @@ title: "Home"
         <li><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
       {% endfor %}
     </ul>
+    <a href="{{ site.baseurl }}/posts/" style="font-weight: bold; text-decoration: none;">+ More…</a>
   </div>
 
+  <!-- Products -->
   <div style="background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
     <h3>📦 Recent Products</h3>
     <ul>
@@ -59,8 +62,10 @@ title: "Home"
         <li><a href="{{ product.url | relative_url }}">{{ product.title }}</a></li>
       {% endfor %}
     </ul>
+    <a href="{{ site.baseurl }}/products/" style="font-weight: bold; text-decoration: none;">+ More…</a>
   </div>
 
+  <!-- Articles -->
   <div style="background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
     <h3>📘 Recent Articles</h3>
     <ul>
@@ -68,8 +73,10 @@ title: "Home"
         <li><a href="{{ article.url | relative_url }}">{{ article.title }}</a></li>
       {% endfor %}
     </ul>
+    <a href="{{ site.baseurl }}/articles/" style="font-weight: bold; text-decoration: none;">+ More…</a>
   </div>
 
+  <!-- Codes -->
   <div style="background: #fff; padding: 1rem; border-radius: 8px; box-shadow: 0 1px 4px rgba(0,0,0,0.08);">
     <h3>💻 Recent Codes</h3>
     <ul>
@@ -77,6 +84,7 @@ title: "Home"
         <li><a href="{{ code.url | relative_url }}">{{ code.title }}</a></li>
       {% endfor %}
     </ul>
+    <a href="{{ site.baseurl }}/codes/" style="font-weight: bold; text-decoration: none;">+ More…</a>
   </div>
 
 </div>
