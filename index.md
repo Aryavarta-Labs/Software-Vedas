@@ -97,29 +97,13 @@ title: "Home"
   <p style="margin-bottom: 1rem;">Let’s connect and grow together 🚀</p>
 
   <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 0.5rem;">
-    <a href="https://topmate.io/erakashsrivastava" target="_blank"
-       style="flex: 1 1 200px; text-align: center; padding: 0.8rem; background: #6c63ff; color: white; font-weight: bold; text-decoration: none; border-radius: 6px;">
-      🎙️ Connect on Topmate
-    </a>
-
-    <a href="https://www.linkedin.com/in/akash-srivastava-public/" target="_blank"
+    <a href="https://www.linkedin.com/company/aryavarta-labs/" target="_blank"
        style="flex: 1 1 200px; text-align: center; padding: 0.8rem; background: #0077b5; color: white; font-weight: bold; text-decoration: none; border-radius: 6px;">
       💼 Follow on LinkedIn
     </a>
-
-    <a href="https://www.youtube.com/@er.akash.srivastava" target="_blank"
-       style="flex: 1 1 200px; text-align: center; padding: 0.8rem; background: #ff0000; color: white; font-weight: bold; text-decoration: none; border-radius: 6px;">
-      ▶️ Subscribe on YouTube
-    </a>
-
     <a href="https://github.com/Aryavarta-Labs" target="_blank"
        style="flex: 1 1 200px; text-align: center; padding: 0.8rem; background: #fbbc05; color: black; font-weight: bold; text-decoration: none; border-radius: 6px;">
-      ⭐ Follow Aryavarta Labs
-    </a>
-
-    <a href="https://github.com/akash-srivastava-pvt" target="_blank"
-       style="flex: 1 1 200px; text-align: center; padding: 0.8rem; background: #444; color: white; font-weight: bold; text-decoration: none; border-radius: 6px;">
-      💻 My GitHub Repositories
+      ⭐ Follow on Github
     </a>
   </div>
 </div>
