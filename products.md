@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Product Posts"
+title: "Products"
 permalink: /products/
 ---
 

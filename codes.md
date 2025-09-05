@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Code Solutions"
+title: "Codes"
 permalink: /codes/
 ---
 

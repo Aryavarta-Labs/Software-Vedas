@@ -15,6 +15,7 @@ plugins:
 
 # ✅ Navbar pages (in order)
 header_pages:
+  - index.md
   - articles.md
   - codes.md
   - posts.md

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "System Articles"
+title: "Articles"
 permalink: /articles/
 ---
 

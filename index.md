@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Software Vedas"
+title: "Home"
 ---
 
 <!-- 🎯 Hero Section -->
